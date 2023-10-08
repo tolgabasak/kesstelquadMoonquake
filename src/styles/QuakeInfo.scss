@@ -1,0 +1,24 @@
+.quakeInfo {
+  &__header {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  &__body {
+    margin-left: 1rem;
+  }
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.5rem;
+  border: 1px solid #ffffff;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.quakeInfo__gif {
+  width: 100%; // or adjust the width as needed
+  max-width: 400px; // or whatever max size you'd like
+  margin-top: 1rem; // space between the quake details and the GIF
+  border-radius: 10px; // optional, to round the corners of the GIF
+}
